@@ -89,6 +89,8 @@ a {
   .img-flex {
     width: 51%;
     display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
   }
 
   .text-content {
@@ -96,6 +98,7 @@ a {
     display: inline-block;
     margin-top: 1rem;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
