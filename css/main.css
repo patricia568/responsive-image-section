@@ -114,4 +114,34 @@ a {
     margin: 0 0 1.5rem;
   }
 
+  .img-flex {
+    width: 50%;
+  }
+
+  .text-content {
+    width: 48%;
+  }
+
+  .content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .content {
+    width: 75%;
+    margin: auto;
+  }
+
+  section {
+    background-color: #e2e2e2;
+  }
+
 }
