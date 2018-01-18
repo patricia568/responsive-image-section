@@ -87,14 +87,27 @@ a {
   }
 
   .img-flex {
-    width: 52%;
+    width: 51%;
     display: inline-block;
   }
 
   .text-content {
-    width: 45%;
+    width: 48%;
     display: inline-block;
     margin-top: 1rem;
-    padding-right: 0;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
 }
