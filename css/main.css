@@ -19,3 +19,41 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.content {
+  background-color: #e2e2e2;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.bold-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.paragraph-2 {
+  margin-top: 0;
+}
+
+.text-content {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  background-color: #555;
+  color: #e2e2e2;
+  padding: .5em .75em;
+  border-radius: 4px;
+}
