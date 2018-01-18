@@ -89,14 +89,15 @@ a {
   .img-flex {
     width: 51%;
     display: inline-block;
-    vertical-align: middle;
     margin-top: 0;
+    vertical-align: middle;
   }
 
   .text-content {
     width: 48%;
     display: inline-block;
     margin-top: 1rem;
+    vertical-align: middle;
   }
 
 }
